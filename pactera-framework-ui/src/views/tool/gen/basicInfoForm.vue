@@ -3,7 +3,7 @@
     <el-row>
       <el-col :span="12">
         <el-form-item label="表名称" prop="tableName">
-          <el-input placeholder="请输入仓库名称" v-model="info.tableName" />
+          <el-input placeholder="请输入表名称" v-model="info.tableName" />
         </el-form-item>
       </el-col>
       <el-col :span="12">
